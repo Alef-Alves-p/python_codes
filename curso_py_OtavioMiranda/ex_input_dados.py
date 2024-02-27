@@ -1,14 +1,10 @@
-# pedir ao usuario para informar seu nome
-# pedir ao usuario para informar sua idade
-# se idade e nomne preenchidos
-# mostre nome
-# nome invertido
-# se o nome contem espaços
-# numero de letras no nome
-# primeira letra do nome
-# ultima letra do nome
-# caso nada sej aexibido mostre:
-# desculpe, você deixou campos vazios!
+"""
+Peça ao usuario para informar seu nome, pedir ao usuario para informar a idade
+se idade e nomne preenchidos, mostre nome - nome invertido
+se o nome contem espaços, numero de letras no nome
+primeira letra do nome - ultima letra do nome
+caso nada seja exibido mostre: desculpe, você deixou campos vazios!
+"""
 
 
 nome = input('Informe seu nome: ')
