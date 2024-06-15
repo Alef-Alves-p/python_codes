@@ -139,3 +139,35 @@ contrário disso:
 O segundo dígito do CPF é 0
 """
 # cpf = '36440847007'  # Esse CPF gera o primeiro dígito como 10 (0)
+
+#def soma(*args):
+#    print(args, type(args))
+#
+#soma(1,2,3,4,5,6)
+
+#Dicionario
+
+# Métodos uteis dos dicionários em python
+# len - quantas chaves
+# key - iterável com as chaves
+# values - iteráveis com valores
+# items - iterável com chaves e valores
+# setdefault - adiciona valor se a chave não existe 
+# copy - retorna uma cópia rasa ( shallow copy)
+# get - obtém a chave 
+# pop - apaga um item com a chave especificada (del)
+# popitem -  apaga o ultimo item da adicionado
+# update - atualiza um dicionario com outro
+
+pessoa = {
+    'nome': 'Paulo',
+    'sobrenome': 'Gustavo'
+}
+
+print(pessoa.setdefault('idade', '29'))
+print(len(pessoa))
+print(pessoa.keys())
+print(pessoa.values())
+print(pessoa.items())
+
+
